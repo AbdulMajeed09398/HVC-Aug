@@ -21,3 +21,17 @@ This is the largest dataset encompassing the diverse information of individuals.
 **Baseline**
 
 We bechmark our technique against two concepts that are prevalent in the AI community. First is to add records for all classes rather than minor or super minor (https://ieeexplore.ieee.org/document/9882118) only, and second is to exactly balance the majority and minority classes (https://ieeexplore.ieee.org/document/10214234) without exploring any possiblities of optimization. In our previous work, we only explore oppurtunities to reduce the # of records to be added while this work explore oppurtunities to add new records under salient features only, making it well suited to larger and complex datasets. 
+
+**Implementation process**
+
+The results can be reproduced by applying the following step by step process.
+
+Data pre-processing : This step requires data cleaning which can be done by using buitin-package support. In most datasets, there are few quality problems such as NAs, missing values, outliers, redundant records, etc. This work exploits benefits of many built-in R packages to pre-process dataset.
+
+Horizontal Contraction
+
+Vertical Contraction
+
+Noise Removal
+
+Classiiers Building
