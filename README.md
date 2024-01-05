@@ -18,4 +18,6 @@ This data set has been widely used in machine learning, particularly, imbalanced
 This is the largest dataset encompassing the diverse information of individuals. It has been widely used by database and privacy community for experimentation purposes. Further details about this dataset can be learned from https://ieeexplore.ieee.org/document/10197160
 
 
-Baseline
+**Baseline**
+
+We bechmark out technique against two concepts that are prevalent in AI community. First is to add records for all classes rather than major or super major (https://ieeexplore.ieee.org/document/9882118), and second is exactly balance the majority and minority classes (https://ieeexplore.ieee.org/document/10214234). 
