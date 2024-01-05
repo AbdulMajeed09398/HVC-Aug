@@ -28,7 +28,7 @@ The results can be reproduced by applying the following step-by-step process.
 
 Data pre-processing: This step requires data cleaning which can be done by using builtin-package support. In most datasets, there are few quality problems such as NAs, missing values, outliers, redundant records, etc. This work exploits the benefits of many built-in R packages to pre-process datasets.
 
-Horizontal Contraction: In this step, we reduce the dimensionality of the data using the Boruta package. If Boruta is not installed, then first one needs to install it using the simple command <install. packages ("Boruta")>. If someone is using the R studio, then an option will appear for its installation. This step reduces the x-axis (# of features) of the data.
+Horizontal Contraction: In this step, we reduce the dimensionality of the data using the Boruta package. If Boruta is not installed, then first one needs to install it using the simple command `<install. packages ("Boruta")>`. If someone is using the R studio, then an option will appear for its installation. This step reduces the x-axis (# of features) of the data.
 
 Vertical Contraction: In this step, more records are curated to compensate for the deficiency of the data. We used the CTGAN model's open-source implementation to curate more records. The requirements for installation are given. We made some changes to tailor the implementation to our goals. With the help of this step, we augmented the minority class only while keeping the majority fixed.
 
