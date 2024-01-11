@@ -30,7 +30,7 @@ Data pre-processing: This step requires data cleaning which can be done by using
 
 Horizontal Contraction: In this step, we reduce the dimensionality of the data using the Boruta package. If Boruta is not installed, then first one needs to install it using the simple command `<install. packages ("Boruta")>`. If someone is using the R studio, then an option will appear for its installation. This step reduces the x-axis (# of features) of the data.
 
-Vertical Contraction: In this step, more records are curated to compensate for the deficiency of the data. We used the CTGAN model's open-source implementation to curate more records. The requirements for installation are given. We made some changes to tailor the implementation to our goals. With the help of this step, we augmented the minority class only while keeping the majority fixed.
+Vertical Contraction: In this step, more records are curated to compensate for the deficiency of the data. We used the CTGAN model's open-source implementation to curate more records. The requirements for installation are given. We made some changes to tailor the implementation to our goals. With the help of this step, we augmented the minority class only of real data with as limited # of samples as possible while keeping the majority fixed.
 
 Noise Removal: Once synthetic data is added, there is a possibility of noise as discussed in our previous research. To remove noise, we used the k-means integrated method to remove noisy samples from the data. This process removes minority samples from the majority ones to improve the learning process of classifiers.
 
