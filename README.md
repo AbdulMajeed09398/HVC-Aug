@@ -7,15 +7,15 @@ Three real-world datasets have been used to evaluate the effectiveness of the pr
 
 **1-Adult**
 
-This is a reasonable-sized dataset encompassing the diverse information of US individuals. It has been widely used by the database and privacy community for experimentation purposes. This dataset in naive form is available at: http://archive.ics.uci.edu/dataset/2/adult. Further details about this dataset can be learned from  https://ieeexplore.ieee.org/document/10214234
+This is a reasonable-sized dataset encompassing the diverse information of US individuals. It has been widely used by the database and privacy community for experimentation purposes. This dataset in an original form is available at: http://archive.ics.uci.edu/dataset/2/adult. Further details about this dataset can be learned from  https://ieeexplore.ieee.org/document/10214234
 
 **2- Stroke Prediction Dataset**
 
-This data set has been widely used in machine learning, particularly, in imbalanced learning problems. This dataset has been widely used in many AI competitions due to higher imbalance. Further details about this dataset can be learned from  https://ieeexplore.ieee.org/document/10214234
+This data set has been widely used in machine learning, particularly, in imbalanced learning problems. This dataset has been widely used in many AI competitions due to higher imbalance. This dataset in an original form is available at: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset.  Further details about this dataset can be learned from  https://ieeexplore.ieee.org/document/10214234
 
 **3- Census Income**
 
-This is the largest dataset encompassing the diverse information of individuals. It has been widely used by the database and privacy community for experimentation purposes. This dataset in naive form is available at:http://archive.ics.uci.edu/dataset/117/census+income+kdd. Further details about this dataset can be learned from https://ieeexplore.ieee.org/document/10197160
+This is the largest dataset encompassing the diverse information of individuals. It has been widely used by the database and privacy community for experimentation purposes. This dataset in an original form is available at:http://archive.ics.uci.edu/dataset/117/census+income+kdd. Further details about this dataset can be learned from https://ieeexplore.ieee.org/document/10197160
 
 
 **Baseline**
