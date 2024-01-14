@@ -1,5 +1,5 @@
 # HVC-Aug
-This repository encloses some general functions implementation used in the Efficient Data Augmentation for Machine Learning Classifiers Using Horizontal and Vertical Contractions
+This repository encloses implementation codes/function used in the Efficient Data Augmentation for Machine Learning Classifiers Using Horizontal and Vertical Contractions
 
 **Dataset used in Experimentation**
 
