@@ -1,0 +1,20 @@
+
+<----------------R Packages -------------------->
+randomForest
+Boruta
+tictoc
+plyr
+vctrs
+dplyr
+imputeTS
+ggplot2
+ggstatsplot
+
+<--------------Python Packages--------------->
+numpy
+pandas
+scikit-learn
+torch
+tqdm>
+rdt
+<Version information can be acquired from: https://github.com/sdv-dev/CTGAN>
