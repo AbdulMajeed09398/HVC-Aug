@@ -35,3 +35,7 @@ Vertical Contraction: In this step, more records are curated to compensate for t
 Noise Removal: Once synthetic data is added, there is a possibility of noise as discussed in our previous research. To remove noise, we used the k-means integrated method to remove noisy samples from the data. This process removes minority samples from the majority ones to improve the learning process of classifiers.
 
 Classifiers Building: In the final step, classifiers are trained on augmented data, and the performance is compared with baseline as well as real data. In this work, we used a Random Forest Classifier and we explored the possibilities of reducing hyper-parameters to train it in a very short time (e.g., a few seconds). With the help of the above-cited data refinement methods, we achieved higher accuracy than the baseline with a reduced model size.
+
+**Citation**
+[1] To be added soon.
+
